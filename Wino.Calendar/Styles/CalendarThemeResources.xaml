@@ -35,5 +35,21 @@
             <SolidColorBrush x:Key="CalendarItemSelectedBorderBrush">#FFFFFF</SolidColorBrush>
             <SolidColorBrush x:Key="CalendarItemDraggingBorderBrush">#000000</SolidColorBrush>
         </ResourceDictionary>
+
+        <ResourceDictionary x:Key="DarkBlueGlass">
+            <!--  CalendarControl  -->
+            <SolidColorBrush x:Key="CalendarSeperatorBrush">#3A3A5A</SolidColorBrush>
+            <SolidColorBrush x:Key="CalendarFieldWorkingHoursBackgroundBrush">#1E1E2E</SolidColorBrush>
+            <SolidColorBrush x:Key="CalendarFieldSelectedBackgroundBrush">#1E1E2E</SolidColorBrush>
+
+            <!--  CalendarView  -->
+            <SolidColorBrush x:Key="WinoCalendarViewBorderBrush">#1E1E2E</SolidColorBrush>
+            <SolidColorBrush x:Key="WinoCalendarViewVisibleDayBackgroundBrush">#1E1E2E</SolidColorBrush>
+
+            <!--  Calendar Item Control  -->
+            <SolidColorBrush x:Key="CalendarItemBorderBrush">#1E1E2E</SolidColorBrush>
+            <SolidColorBrush x:Key="CalendarItemSelectedBorderBrush">#3A3A5A</SolidColorBrush>
+            <SolidColorBrush x:Key="CalendarItemDraggingBorderBrush">#1E1E2E</SolidColorBrush>
+        </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 </ResourceDictionary>
