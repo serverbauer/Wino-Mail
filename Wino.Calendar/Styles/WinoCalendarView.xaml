@@ -10,6 +10,10 @@
 
     <Style TargetType="controls:WinoCalendarView">
         <Setter Property="VisibleDateBackground" Value="{ThemeResource WinoCalendarViewVisibleDayBackgroundBrush}" />
+        <Setter Property="BorderBrush" Value="{ThemeResource WinoCalendarViewBorderBrush}" />
+        <Setter Property="CalendarItemBorderBrush" Value="{ThemeResource CalendarItemBorderBrush}" />
+        <Setter Property="CalendarItemSelectedBorderBrush" Value="{ThemeResource CalendarItemSelectedBorderBrush}" />
+        <Setter Property="CalendarItemDraggingBorderBrush" Value="{ThemeResource CalendarItemDraggingBorderBrush}" />
 
         <Setter Property="Template">
             <Setter.Value>

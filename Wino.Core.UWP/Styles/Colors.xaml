@@ -27,5 +27,12 @@
             <SolidColorBrush x:Key="MailItemFlaggedBackgroundBrush" Color="#576574" />
             <SolidColorBrush x:Key="InformationBrush">#ecf0f1</SolidColorBrush>
         </ResourceDictionary>
+        <ResourceDictionary x:Name="DarkBlueGlass">
+            <SolidColorBrush x:Key="AttachmentBrush">#3A3A5A</SolidColorBrush>
+            <SolidColorBrush x:Key="SettingsPaneBorderBrush">#1E1E2E</SolidColorBrush>
+            <SolidColorBrush x:Key="WinoContentZoneBackgroud" Color="#1E1E2E" />
+            <SolidColorBrush x:Key="MailItemFlaggedBackgroundBrush" Color="#1E1E2E" />
+            <SolidColorBrush x:Key="InformationBrush">#3A3A5A</SolidColorBrush>
+        </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 </ResourceDictionary>

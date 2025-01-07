@@ -1,0 +1,29 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Microsoft.UI.Xaml.Media"
+    xmlns:xaml="using:Windows.UI.Xaml">
+
+    <x:String x:Key="ThemeName">DarkBlueGlass</x:String>
+    <x:Boolean x:Key="UseMica">False</x:Boolean>
+
+    <local:AcrylicBrush
+        x:Key="WinoApplicationBackgroundColor"
+        BackgroundSource="HostBackdrop"
+        FallbackColor="#1E1E2E"
+        TintColor="#1E1E2E"
+        TintOpacity="0.30" />
+
+    <SolidColorBrush x:Key="AppBarBackgroundColor">Transparent</SolidColorBrush>
+
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Name="Light">
+            <SolidColorBrush x:Key="MailListHeaderBackgroundColor">#1E1E2E</SolidColorBrush>
+            <SolidColorBrush x:Key="CalendarSeperatorBrush">#3A3A5A</SolidColorBrush>
+        </ResourceDictionary>
+        <ResourceDictionary x:Name="Dark">
+            <SolidColorBrush x:Key="MailListHeaderBackgroundColor">#1E1E2E</SolidColorBrush>
+            <SolidColorBrush x:Key="CalendarSeperatorBrush">#3A3A5A</SolidColorBrush>
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+</ResourceDictionary>

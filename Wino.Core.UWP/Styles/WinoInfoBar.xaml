@@ -58,6 +58,32 @@
             <Thickness x:Key="InfoBarBorderThickness">1</Thickness>
         </ResourceDictionary>
 
+        <ResourceDictionary x:Key="DarkBlueGlass">
+            <SolidColorBrush x:Key="InfoBarCustomInformationalBackground">#1E1E2E</SolidColorBrush>
+
+            <StaticResource x:Key="InfoBarErrorSeverityBackgroundBrush" ResourceKey="SystemFillColorCriticalBackgroundBrush" />
+            <StaticResource x:Key="InfoBarWarningSeverityBackgroundBrush" ResourceKey="SystemFillColorCautionBackgroundBrush" />
+            <StaticResource x:Key="InfoBarSuccessSeverityBackgroundBrush" ResourceKey="SystemFillColorSuccessBackgroundBrush" />
+            <StaticResource x:Key="InfoBarInformationalSeverityBackgroundBrush" ResourceKey="InfoBarCustomInformationalBackground" />
+
+            <StaticResource x:Key="InfoBarErrorSeverityIconBackground" ResourceKey="SystemFillColorCriticalBrush" />
+            <StaticResource x:Key="InfoBarWarningSeverityIconBackground" ResourceKey="SystemFillColorCautionBrush" />
+            <StaticResource x:Key="InfoBarSuccessSeverityIconBackground" ResourceKey="SystemFillColorSuccessBrush" />
+            <StaticResource x:Key="InfoBarInformationalSeverityIconBackground" ResourceKey="SystemFillColorAttentionBrush" />
+
+            <StaticResource x:Key="InfoBarErrorSeverityIconForeground" ResourceKey="TextFillColorInverseBrush" />
+            <StaticResource x:Key="InfoBarWarningSeverityIconForeground" ResourceKey="TextFillColorInverseBrush" />
+            <StaticResource x:Key="InfoBarSuccessSeverityIconForeground" ResourceKey="TextFillColorInverseBrush" />
+            <StaticResource x:Key="InfoBarInformationalSeverityIconForeground" ResourceKey="TextFillColorInverseBrush" />
+
+            <StaticResource x:Key="InfoBarTitleForeground" ResourceKey="TextFillColorPrimaryBrush" />
+            <StaticResource x:Key="InfoBarMessageForeground" ResourceKey="TextFillColorPrimaryBrush" />
+            <StaticResource x:Key="InfoBarHyperlinkButtonForeground" ResourceKey="AccentTextFillColorPrimaryBrush" />
+
+            <StaticResource x:Key="InfoBarBorderBrush" ResourceKey="CardStrokeColorDefaultBrush" />
+            <Thickness x:Key="InfoBarBorderThickness">1</Thickness>
+        </ResourceDictionary>
+
         <ResourceDictionary x:Key="HighContrast">
             <SolidColorBrush x:Key="InfoBarErrorSeverityBackgroundBrush" Color="{ThemeResource SystemColorWindowColor}" />
             <SolidColorBrush x:Key="InfoBarWarningSeverityBackgroundBrush" Color="{ThemeResource SystemColorWindowColor}" />

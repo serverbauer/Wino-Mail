@@ -22,10 +22,11 @@
                 <ResourceDictionary Source="Styles/WinoCalendarView.xaml" />
                 <ResourceDictionary Source="Styles/WinoCalendarTypeSelectorControl.xaml" />
 
+                <ResourceDictionary Source="ms-appx:///Wino.Core.UWP/AppThemes/DarkBlueGlass.xaml" />
+
                 <!--  Last item must always be the default theme.  -->
                 <ResourceDictionary Source="ms-appx:///Wino.Core.UWP/AppThemes/Mica.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
 </core:WinoApplication>
-
